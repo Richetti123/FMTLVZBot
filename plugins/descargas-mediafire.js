@@ -19,10 +19,10 @@ let caption = `${eg}
 ┃ ${mime}`.trim()
 conn.reply(m.chat, caption, m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, 
-title: '𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨',
-body: 'Super Bot WhatsApp',         
+title: 'MichiBot',
+body: 'MichiBot',         
 previewType: 0, thumbnail: fs.readFileSync("./media/menus/Menu3.jpg"),
-sourceUrl: `https://github.com/GataNina-Li/GataBot-MD`}}})
+sourceUrl: `https://www.instagram.com/ceogeripium.dzn`}}})
    await conn.sendFile(m.chat, link, name, '', m, null, { mimetype: mime, asDocument: true })
 } catch (e) {
 m.reply(`${fg}𝙑𝙐𝙀𝙇𝙑𝘼 𝘼 𝙄𝙉𝙏𝙀𝙉𝙏𝘼𝙍. 𝘿𝙀𝘽𝙀 𝘿𝙀 𝙎𝙀𝙍 𝙐𝙉 𝙀𝙉𝙇𝘼𝘾𝙀 𝙑𝘼𝙇𝙄𝘿𝙊 𝘿𝙀 𝙈𝙀𝘿𝙄𝘼𝙁𝙄𝙍𝙀.\n\n𝙋𝙇𝙀𝘼𝙎𝙀 𝙏𝙍𝙔 𝘼𝙂𝘼𝙄𝙉. 𝙈𝙐𝙎𝙏 𝘽𝙀 𝘼 𝙑𝘼𝙇𝙄𝘿 𝙈𝙀𝘿𝙄𝘼𝙁𝙄𝙍𝙀 𝙇𝙄𝙉𝙆.`)
