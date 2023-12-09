@@ -20,12 +20,12 @@ let bio = biografia.status?.toString() || `${desc2 == '' ? lenguajeGB.smsContact
   
 nombre = official[0][0] == String(contact[0]) ? official[0][1] : official[1][0] == String(contact[0]) ? official[1][1] : official[2][0] == String(contact[0]) ? official[2][1] : official[3][0] == String(contact[0]) ? official[3][1] : lenguajeGB.smsContacto3() 
 description = official[0][0] == String(contact[0]) ? 'Solo temas de GataBot' : official[1][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : official[2][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : official[3][0] == String(contact[0]) ? lenguajeGB.smsContacto4() : desc === '' ? lenguajeGB.smsContacto5() : desc
-correo = official[0][0] == String(contact[0]) ? 'socialplus.gata@gamil.com' : official[1][0] == String(contact[0]) ? 'thelolibotm@gmail.com' : official[2][0] == String(contact[0]) ? 'alexismaldonado90700@gmail.com' : mail === '' ? lenguajeGB.smsContacto6() : mail
-lugar = official[0][0] == String(contact[0]) ? '🇪🇨 Ecuador' : official[1][0] == String(contact[0]) ? '🇦🇷 Argentina' : official[2][0] == String(contact[0]) ? '🇲🇽 México' : official[3][0] == String(contact[0]) ? '🇧🇷 Brazil' : country === '' ? lenguajeGB.smsContacto7() : country
-enlace = official[0][0] == String(contact[0]) ? 'https://github.com/GataNina-Li' : official[1][0] == String(contact[0]) ? 'https://github.com/elrebelde21' : official[2][0] == String(contact[0]) ? 'https://github.com/Azami19' : official[3][0] == String(contact[0]) ? 'https://github.com/Abiguelreyes75' : md 
+correo = official[0][0] == String(contact[0]) ? 'https://www.instagram.com/ceogeripium.dzn' : official[1][0] == String(contact[0]) ? 'https://www.instagram.com/ceogeripium.dzn' : official[2][0] == String(contact[0]) ? 'https://www.instagram.com/ceogeripium.dzn' : mail === '' ? lenguajeGB.smsContacto6() : mail
+lugar = official[0][0] == String(contact[0]) ? 'MichiBot' : official[1][0] == String(contact[0]) ? 'MichiBot' : official[2][0] == String(contact[0]) ? 'MichiBot' : official[3][0] == String(contact[0]) ? 'MichiBot' : country === '' ? lenguajeGB.smsContacto7() : country
+enlace = official[0][0] == String(contact[0]) ? 'https://www.instagram.com/ceogeripium.dzn' : official[1][0] == String(contact[0]) ? 'https://www.instagram.com/ceogeripium.dzn' : official[2][0] == String(contact[0]) ? 'https://www.instagram.com/ceogeripium.dzn' : official[3][0] == String(contact[0]) ? 'https://www.instagram.com/ceogeripium.dzn' : md 
    
-lista.push([number, ofc, nombre, description, official[3][0] == String(contact[0]) ? null : correo, lugar, enlace, bio, official[1][0] == String(contact[0]) ? 'https://www.youtube.com/@TheLoliBot-MD' : null]) }  
-lista.push([conn.user.jid.split('@')[0], await conn.getName(conn.user.jid), packname, lenguajeGB.smsContacto8(), mail === '' ? 'centergatabot@gmail.com' : mail, lenguajeGB.smsContacto7(), md, bioBot, yt, ig, fb, paypal, nna])
+lista.push([number, ofc, nombre, description, official[3][0] == String(contact[0]) ? null : correo, lugar, enlace, bio, official[1][0] == String(contact[0]) ? 'https://www.instagram.com/ceogeripium.dzn' : null]) }  
+lista.push([conn.user.jid.split('@')[0], await conn.getName(conn.user.jid), packname, lenguajeGB.smsContacto8(), mail === '' ? 'https://www.instagram.com/ceogeripium.dzn' : mail, lenguajeGB.smsContacto7(), md, bioBot, yt, ig, fb, paypal, nna])
 await conn.sendContactArray(m.chat, lista, null, { quoted: fkontak })
   
 } catch (e) {
