@@ -43,7 +43,7 @@ token: '9',
 curreyCode: 'IDR',
 totalCurrencyCode: '>〰<',
 totalAmount1000: '1000000',
-sellerJid: 'https://github.com/GataNina-Li/GataBot-MD',
+sellerJid: 'https://www.instagram.com/ceogeripium.dzn',
 thumbnail: fs.readFileSync('./src/avatar_contact.png')
 }}, {contextInfo: null, quoted: m})
 conn.relayWAMessage(prep)
@@ -51,7 +51,7 @@ conn.relayWAMessage(prep)
 }
 handler.help = ['runtime']
 handler.tags = ['info']
-handler.command = /^(runtime|sc|activo)$/i
+handler.command = /^(hgajdfhkjgiewrouoyioixudoiuzxknbvbcxv21564795798ñ)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
