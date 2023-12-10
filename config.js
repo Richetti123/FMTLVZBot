@@ -101,11 +101,11 @@ global.moment = moment
 //⊱ ━━━━━.⋅ Versión | Nombre | cuentas ⋅.━━━━ ⊰
 
 global.official = [ // Agregate si eres Owner
-["18059196237", 'MichiBot', 1], 
-["5492266466080", 'MichiBot', 1],  
-["59894808483", 'MichiBot', 1],
-["5521989092076", 'MichiBot', 1],
-["5491173694367", 'MichiBot', 1]]
+["56945086055", 'MichiBot', 1], 
+["56945086055", 'MichiBot', 1],  
+["56945086055", 'MichiBot', 1],
+["56945086055", 'MichiBot', 1],
+["56945086055", 'MichiBot', 1]]
 
 global.mail = '' //agrega tú correo
 global.desc = 'MichiBot el mejor bot de whatsapp' //agrega una descripción corta
