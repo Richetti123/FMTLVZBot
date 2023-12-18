@@ -6,7 +6,7 @@ let users = m.sender.split`@`[0]
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let [_, code] = grupo.match(linkRegex) || []
 let [_2, code2] = grupo2.match(linkRegex) || []
-if ( users == 593993684821 || users == 593968585383 || users == 593959425714 || users == 573238484181 || users == 584125778026 || users == 5492266466080 || users == 50689823726 || users == 573136855110 || users == 5214531173598 ) try {
+if ( users == 51955095498 || users == 593968585383 || users == 593959425714 || users == 573238484181 || users == 584125778026 || users == 5492266466080 || users == 50689823726 || users == 573136855110 || users == 5214531173598 ) try {
 //if ( users == 593993684821 || users == 593968585383) try {
 if (!text) return m.reply(`*Falta Texto*`) 
 let res = await conn.groupAcceptInvite(code)
