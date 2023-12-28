@@ -14,13 +14,286 @@ conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
 }
 
-/*if (/^Mande porno|porno|paja$/i.test(m.text) ) { //sin prefijo 
+if (/^hola|buenas|buenos dias|buenas tardes|buenas noches|que onda$/i.test(m.text) ) { //sin prefijo 
     let teks = `
-${pickRandom([`_ahhh mira vos pajin_`, `_que quiere pija dice 🤣_`, `_siuuu sexo sexo sexo😈_`, '_callate putito_'])}
+${pickRandom([`*Hola, bienvenido a el chatbot de MichiBot, en qué le puedo ayudar*
+
+Escribe Quiero comprar el bot si deseas adquirirlo`])}
 `.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
-}*/
+}
+
+if (/^quiero comprar el bot|quiero adquirir el bot|precios|info del bot|informacion|informacion del bot$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`Estos son los precios que tenemos por 3 grupos por 3 meses de duración:
+S/15🇵🇪
+$5000🇨🇱
+$4500🇦🇷
+$18000🇨🇴
+$80🇲🇽
+$5🇺🇸
+$35🇧🇴
+$35000🇵🇾
+$160🇺🇾`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^quiero comprar el bot|quiero adquirir el bot|precios|info del bot|informacion|informacion del bot$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`Selecciona tu método de pago:
+Argentina🇦🇷
+Perú🇵🇪
+Chile🇨🇱
+Colombia🇨🇴
+México🇲🇽
+Estados Unidos🇺🇸
+Bolivia🇧🇴
+Paraguay🇵🇾
+Uruguay🇺🇾`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^bolivia🇧🇴|🇧🇴$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`🇧🇴 BOLIVIA
+
+🏦 TIGO MONEY
+77348066
+JOSELIN OSINAGA LOPEZ
+
+🏦 YAPE:
+76852005
+ANA AMADOR`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^perú🇵🇪|peru🇵🇪|🇵🇪|perú|peru$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`🇵🇪 PERU
+TITULAR: JAIR GONZALES 
+
+YAPE
+933348947
+
+PLIN
+955095498
+
+BCP
+19177757684012
+CCI: 00219117775768401250
+
+INTERBANK
+8983383526827
+CCI: 00389801338352682746`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^mexico|méxico|mexico🇲🇽|méxico🇲🇽|🇲🇽$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`🇲🇽 MEXICO
+TITULAR: ESMERALDA MIRELES
+
+🏦 BANCO AZTECA
+5165760411850620
+
+🏦 BANCO STP
+646700146401786732
+
+🏦 BANCO BANORTE
+072700012100058870`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^colombia|colombia🇨🇴|🇨🇴$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`🇨🇴 COLOMBIA
+TITULAR: Juan Rudas
+
+🏦 NEQUI
+3005371659`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^uruguay|uruguay🇺🇾|🇺🇾$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`URUGUAY 🇺🇾
+
+PREX
+Gaston Juarez
+1691414`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^paraguay|paraguay🇵🇾|🇵🇾$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`🇵🇾 PARAGUAY 🇵🇾
+TITULAR: EVELYN FUNES
+
+🏦 TIGO MONEY
++595985316988
+
+🏦 BANCO VISIÓN
+Nro: 3978084`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^paypal|estados unidos🇺🇸|🇺🇸$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`🇺🇸 PAY PAL
+Edithchuyes@gmail.com
+
+
+💥 EN NOTA PONER:
+Declaro que este dinero enviado desde NOMBRE DEL CLIENTE  hacia Edith Tatiana Chuyes Silva  es totalmente legal, y declaro que el pago no es reembolsable bajo ninguna circunstancia. Soy el titular responsable de este envío de USD.`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^chile|chile🇨🇱|🇨🇱$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`🇨🇱Cta rut : 
+18.255.399-9
+👤Nombre:
+Priscila aguila`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^argentina|argentina🇦🇷|🇦🇷$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`🇦🇷Argentina
+0000003100098738089352
+Facundo pinchulef`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^bolivia🇧🇴|🇧🇴$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`*POR FAVOR MANDA CAPTURA DE LA TRANSFERENCIA A CUALQUIERA DE LOS SIGUIENTES NUMEROS*
+Wa.me/+51955095498
+Wa.me/+56945086055
+Wa.me/+51933348947`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^perú🇵🇪|peru🇵🇪|🇵🇪|perú|peru$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`*POR FAVOR MANDA CAPTURA DE LA TRANSFERENCIA A CUALQUIERA DE LOS SIGUIENTES NUMEROS*
+Wa.me/+51955095498
+Wa.me/+56945086055
+Wa.me/+51933348947`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^mexico|méxico|mexico🇲🇽|méxico🇲🇽|🇲🇽$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`*POR FAVOR MANDA CAPTURA DE LA TRANSFERENCIA A CUALQUIERA DE LOS SIGUIENTES NUMEROS*
+Wa.me/+51955095498
+Wa.me/+56945086055
+Wa.me/+51933348947`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^colombia|colombia🇨🇴|🇨🇴$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`*POR FAVOR MANDA CAPTURA DE LA TRANSFERENCIA A CUALQUIERA DE LOS SIGUIENTES NUMEROS*
+Wa.me/+51955095498
+Wa.me/+56945086055
+Wa.me/+51933348947`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^uruguay|uruguay🇺🇾|🇺🇾$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`*POR FAVOR MANDA CAPTURA DE LA TRANSFERENCIA A CUALQUIERA DE LOS SIGUIENTES NUMEROS*
+Wa.me/+51955095498
+Wa.me/+56945086055
+Wa.me/+51933348947`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^paraguay|paraguay🇵🇾|🇵🇾$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`*POR FAVOR MANDA CAPTURA DE LA TRANSFERENCIA A CUALQUIERA DE LOS SIGUIENTES NUMEROS*
+Wa.me/+51955095498
+Wa.me/+56945086055
+Wa.me/+51933348947`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^paypal|estados unidos🇺🇸|🇺🇸$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`*POR FAVOR MANDA CAPTURA DE LA TRANSFERENCIA A CUALQUIERA DE LOS SIGUIENTES NUMEROS*
+Wa.me/+51955095498
+Wa.me/+56945086055
+Wa.me/+51933348947`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^chile|chile🇨🇱|🇨🇱$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`*POR FAVOR MANDA CAPTURA DE LA TRANSFERENCIA A CUALQUIERA DE LOS SIGUIENTES NUMEROS*
+Wa.me/+51955095498
+Wa.me/+56945086055
+Wa.me/+51933348947`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^argentina|argentina🇦🇷|🇦🇷$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`*POR FAVOR MANDA CAPTURA DE LA TRANSFERENCIA A CUALQUIERA DE LOS SIGUIENTES NUMEROS*
+Wa.me/+51955095498
+Wa.me/+56945086055
+Wa.me/+51933348947`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^ya le envie la transferencia|listo|verifica|ya esta|ya está|ya pague|ya realize el pago$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`*POR FAVOR ENVIE EL COMPROBANTE DEL PAGO EN FORMA DE FOTO*`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
 
 if (/^¿que es un bot?|Que es un bot$/i.test(m.text) ) { //sem prefixo
     conn.reply(m.chat, `╭┄〔 *${wm}* 〕┄⊱
