@@ -95,7 +95,9 @@ if (!isNumber(user.semangka)) user.semangka = 0
 if (!isNumber(user.stroberi)) user.stroberi = 0
 }
 	
-if (!isNumber(user.counterPrivate)) user.counterPrivate = 0	                    		    
+if (!isNumber(user.counterPrivate)) user.counterPrivate = 0	    
+if (!isNumber(user.fechaActualBD)) user.fechaActualBD = 0 //kurt18                 		    
+if (!isNumber(user.fechaUltimoMsjInbox)) user.fechaUltimoMsjInbox = 0 //kurt18                		    
 if (!isNumber(user.afk)) user.afk = -1
 //if (!('autolevelup' in user))  user.autolevelup = true
 if (!isNumber(user.reporte)) user.reporte = 0
@@ -503,6 +505,8 @@ if (!user.rtrofi) user.rtrofi = 'Bronce'
 } else
 global.db.data.users[m.sender] = {
 counterPrivate: 0,
+fechaActualBD: 0, //kurt18	 
+fechaUltimoMsjInbox: 0, //kurt18
 afk: -1,
 afkReason: '',
 reporte: 0,
