@@ -9,24 +9,6 @@ let name = conn.getName(m.sender)
   if (m.isGroup) return !1;
   if (!m.message) return !0;
 
-if (/^bot$/i.test(m.text) ) { //sin prefijo 
-    let teks = `
-${pickRandom([`Si quieres comprarme solo habla al wa.me/56945086055`])}
-`.trim()
-conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
-
-}
-
-if (/^hola|buenas|buenos dias|buenas tardes|buenas noches|que onda$/i.test(m.text) ) { //sin prefijo 
-    let teks = `
-${pickRandom([`*Hola, bienvenido a el chatbot de MichiBot, en qué le puedo ayudar*
-
-Escribe Quiero comprar el bot si deseas adquirirlo`])}
-`.trim()
-conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
-
-}
-
 if (/^quiero comprar el bot|quiero adquirir el bot|precios|info del bot|informacion|informacion del bot$/i.test(m.text) ) { //sin prefijo 
     let teks = `
 ${pickRandom([`Estos son los precios que tenemos por 3 grupos por 3 meses de duración:
@@ -44,7 +26,172 @@ conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
 }
 
+if (/^quiero comprar el bot propio personalizado|quiero comprar el bot de etiquetas propio personalizado|precios|info del bot|informacion|informacion del bot$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`Estos son los precios que tenemos para bot propio personalizado:
+S/20🇵🇪
+$6000🇨🇱
+$6000🇦🇷
+$25000🇨🇴
+$120🇲🇽
+$6🇺🇸
+$50🇧🇴
+$45000🇵🇾
+$220🇺🇾`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+if (/^quiero comprar el número de chip|quiero comprar chip chileno|precios|info del chip|informacion|informacion del bot$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`Estos son los precios que tenemos para números de chip +56:
+S/6🇵🇪
+$1500🇨🇱
+$1500🇦🇷
+$8000🇨🇴
+$30🇲🇽
+$2🇺🇸
+$15🇧🇴
+$14000🇵🇾
+$60🇺🇾`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+if (/^quiero comprar el APK de spam|quiero comprar APK de spam|precios|info del bot|informacion|informacion del bot$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`Estos son los precios que tenemos para APK de spam:
+S/10🇵🇪
+$3000🇨🇱
+$3000🇦🇷
+$14000🇨🇴
+$60🇲🇽
+$4🇺🇸
+$30🇧🇴
+$25000🇵🇾
+$110🇺🇾`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+if (/^quiero comprar el APK de Spotify|quiero comprar APK de Spotify premium|precios|info del bot|informacion|informacion del bot$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`Estos son los precios que tenemos para APK de Spotify premium:
+S/10🇵🇪
+$3000🇨🇱
+$3000🇦🇷
+$14000🇨🇴
+$60🇲🇽
+$4🇺🇸
+$30🇧🇴
+$25000🇵🇾
+$110🇺🇾`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^quiero comprar el APK de seguidores|quiero comprar APK de seguidores|precios|info del bot|informacion|informacion del bot$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`Estos son los precios que tenemos para APK de seguidores:
+S/10🇵🇪
+$3000🇨🇱
+$3000🇦🇷
+$14000🇨🇴
+$60🇲🇽
+$4🇺🇸
+$30🇧🇴
+$25000🇵🇾
+$110🇺🇾`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
 if (/^quiero comprar el bot|quiero adquirir el bot|precios|info del bot|informacion|informacion del bot$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`Selecciona tu método de pago:
+Argentina🇦🇷
+Perú🇵🇪
+Chile🇨🇱
+Colombia🇨🇴
+México🇲🇽
+Estados Unidos🇺🇸
+Bolivia🇧🇴
+Paraguay🇵🇾
+Uruguay🇺🇾`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+if (/^quiero comprar el bot propio personalizado|quiero comprar el bot de etiquetas propio personalizado|precios|info del bot|informacion|informacion del bot$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`Selecciona tu método de pago:
+Argentina🇦🇷
+Perú🇵🇪
+Chile🇨🇱
+Colombia🇨🇴
+México🇲🇽
+Estados Unidos🇺🇸
+Bolivia🇧🇴
+Paraguay🇵🇾
+Uruguay🇺🇾`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+if (/^quiero comprar el número de chip|quiero comprar chip chileno|precios|info del chip|informacion|informacion del bot$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`Selecciona tu método de pago:
+Argentina🇦🇷
+Perú🇵🇪
+Chile🇨🇱
+Colombia🇨🇴
+México🇲🇽
+Estados Unidos🇺🇸
+Bolivia🇧🇴
+Paraguay🇵🇾
+Uruguay🇺🇾`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^quiero comprar el APK de Spotify|quiero comprar APK de Spotify premium|precios|info del bot|informacion|informacion del bot$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`Selecciona tu método de pago:
+Argentina🇦🇷
+Perú🇵🇪
+Chile🇨🇱
+Colombia🇨🇴
+México🇲🇽
+Estados Unidos🇺🇸
+Bolivia🇧🇴
+Paraguay🇵🇾
+Uruguay🇺🇾`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^quiero comprar el APK de seguidores|quiero comprar APK de seguidores|precios|info del bot|informacion|informacion del bot$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`Selecciona tu método de pago:
+Argentina🇦🇷
+Perú🇵🇪
+Chile🇨🇱
+Colombia🇨🇴
+México🇲🇽
+Estados Unidos🇺🇸
+Bolivia🇧🇴
+Paraguay🇵🇾
+Uruguay🇺🇾`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
+if (/^quiero comprar el APK de spam|quiero comprar APK de spam|precios|info del bot|informacion|informacion del bot$/i.test(m.text) ) { //sin prefijo 
     let teks = `
 ${pickRandom([`Selecciona tu método de pago:
 Argentina🇦🇷
@@ -164,7 +311,7 @@ Edithchuyes@gmail.com
 
 
 💥 EN NOTA PONER:
-Declaro que este dinero enviado desde NOMBRE DEL CLIENTE  hacia Edith Tatiana Chuyes Silva  es totalmente legal, y declaro que el pago no es reembolsable bajo ninguna circunstancia. Soy el titular responsable de este envío de USD.`])}
+Declaro que este dinero enviado desde NOMBRE DEL CLIENTE  hacia Edith Tatiana Chuyes Silva  es totalmente legal, y declaro que el pago no es reembolsable bajo ninguna circunstancia. Soy el titular responsable de este envío de USD.`])}
 `.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
@@ -193,10 +340,9 @@ conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
 if (/^bolivia🇧🇴|🇧🇴$/i.test(m.text) ) { //sin prefijo 
     let teks = `
-${pickRandom([`*POR FAVOR MANDA CAPTURA DE LA TRANSFERENCIA A CUALQUIERA DE LOS SIGUIENTES NUMEROS*
-Wa.me/+51955095498
-Wa.me/+56945086055
-Wa.me/+51933348947`])}
+${pickRandom([`*UNA VEZ REALIZADA LA TRANSFERENCIA ENVIAR LA FOTO DEL PAGO CON EL SIGUIENTE TEXTO:*
+
+*✅PAGO REALIZADO✅*`])}
 `.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
@@ -204,10 +350,9 @@ conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
 if (/^perú🇵🇪|peru🇵🇪|🇵🇪|perú|peru$/i.test(m.text) ) { //sin prefijo 
     let teks = `
-${pickRandom([`*POR FAVOR MANDA CAPTURA DE LA TRANSFERENCIA A CUALQUIERA DE LOS SIGUIENTES NUMEROS*
-Wa.me/+51955095498
-Wa.me/+56945086055
-Wa.me/+51933348947`])}
+${pickRandom([`*UNA VEZ REALIZADA LA TRANSFERENCIA ENVIAR LA FOTO DEL PAGO CON EL SIGUIENTE TEXTO:*
+
+*✅PAGO REALIZADO✅*`])}
 `.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
@@ -215,10 +360,9 @@ conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
 if (/^mexico|méxico|mexico🇲🇽|méxico🇲🇽|🇲🇽$/i.test(m.text) ) { //sin prefijo 
     let teks = `
-${pickRandom([`*POR FAVOR MANDA CAPTURA DE LA TRANSFERENCIA A CUALQUIERA DE LOS SIGUIENTES NUMEROS*
-Wa.me/+51955095498
-Wa.me/+56945086055
-Wa.me/+51933348947`])}
+${pickRandom([`*UNA VEZ REALIZADA LA TRANSFERENCIA ENVIAR LA FOTO DEL PAGO CON EL SIGUIENTE TEXTO:*
+
+*✅PAGO REALIZADO✅*`])}
 `.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
@@ -226,10 +370,9 @@ conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
 if (/^colombia|colombia🇨🇴|🇨🇴$/i.test(m.text) ) { //sin prefijo 
     let teks = `
-${pickRandom([`*POR FAVOR MANDA CAPTURA DE LA TRANSFERENCIA A CUALQUIERA DE LOS SIGUIENTES NUMEROS*
-Wa.me/+51955095498
-Wa.me/+56945086055
-Wa.me/+51933348947`])}
+${pickRandom([`*UNA VEZ REALIZADA LA TRANSFERENCIA ENVIAR LA FOTO DEL PAGO CON EL SIGUIENTE TEXTO:*
+
+*✅PAGO REALIZADO✅*`])}
 `.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
@@ -237,10 +380,9 @@ conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
 if (/^uruguay|uruguay🇺🇾|🇺🇾$/i.test(m.text) ) { //sin prefijo 
     let teks = `
-${pickRandom([`*POR FAVOR MANDA CAPTURA DE LA TRANSFERENCIA A CUALQUIERA DE LOS SIGUIENTES NUMEROS*
-Wa.me/+51955095498
-Wa.me/+56945086055
-Wa.me/+51933348947`])}
+${pickRandom([`*UNA VEZ REALIZADA LA TRANSFERENCIA ENVIAR LA FOTO DEL PAGO CON EL SIGUIENTE TEXTO:*
+
+*✅PAGO REALIZADO✅*`])}
 `.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
@@ -248,10 +390,9 @@ conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
 if (/^paraguay|paraguay🇵🇾|🇵🇾$/i.test(m.text) ) { //sin prefijo 
     let teks = `
-${pickRandom([`*POR FAVOR MANDA CAPTURA DE LA TRANSFERENCIA A CUALQUIERA DE LOS SIGUIENTES NUMEROS*
-Wa.me/+51955095498
-Wa.me/+56945086055
-Wa.me/+51933348947`])}
+${pickRandom([`*UNA VEZ REALIZADA LA TRANSFERENCIA ENVIAR LA FOTO DEL PAGO CON EL SIGUIENTE TEXTO:*
+
+*✅PAGO REALIZADO✅*`])}
 `.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
@@ -259,10 +400,9 @@ conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
 if (/^paypal|estados unidos🇺🇸|🇺🇸$/i.test(m.text) ) { //sin prefijo 
     let teks = `
-${pickRandom([`*POR FAVOR MANDA CAPTURA DE LA TRANSFERENCIA A CUALQUIERA DE LOS SIGUIENTES NUMEROS*
-Wa.me/+51955095498
-Wa.me/+56945086055
-Wa.me/+51933348947`])}
+${pickRandom([`*UNA VEZ REALIZADA LA TRANSFERENCIA ENVIAR LA FOTO DEL PAGO CON EL SIGUIENTE TEXTO:*
+
+*✅PAGO REALIZADO✅*`])}
 `.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
@@ -270,10 +410,9 @@ conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
 if (/^chile|chile🇨🇱|🇨🇱$/i.test(m.text) ) { //sin prefijo 
     let teks = `
-${pickRandom([`*POR FAVOR MANDA CAPTURA DE LA TRANSFERENCIA A CUALQUIERA DE LOS SIGUIENTES NUMEROS*
-Wa.me/+51955095498
-Wa.me/+56945086055
-Wa.me/+51933348947`])}
+${pickRandom([`*UNA VEZ REALIZADA LA TRANSFERENCIA ENVIAR LA FOTO DEL PAGO CON EL SIGUIENTE TEXTO:*
+
+*✅PAGO REALIZADO✅*`])}
 `.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
@@ -281,18 +420,9 @@ conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
 if (/^argentina|argentina🇦🇷|🇦🇷$/i.test(m.text) ) { //sin prefijo 
     let teks = `
-${pickRandom([`*POR FAVOR MANDA CAPTURA DE LA TRANSFERENCIA A CUALQUIERA DE LOS SIGUIENTES NUMEROS*
-Wa.me/+51955095498
-Wa.me/+56945086055
-Wa.me/+51933348947`])}
-`.trim()
-conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+${pickRandom([`*UNA VEZ REALIZADA LA TRANSFERENCIA ENVIAR LA FOTO DEL PAGO CON EL SIGUIENTE TEXTO:*
 
-}
-
-if (/^ya le envie la transferencia|listo|verifica|ya esta|ya está|ya pague|ya realize el pago$/i.test(m.text) ) { //sin prefijo 
-    let teks = `
-${pickRandom([`*POR FAVOR ENVIE EL COMPROBANTE DEL PAGO EN FORMA DE FOTO*`])}
+*✅PAGO REALIZADO✅*`])}
 `.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
@@ -323,3 +453,4 @@ function pickRandom(list) {
     return list[Math.floor(Math.random() * list.length)]
 }
 
+           
