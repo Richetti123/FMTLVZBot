@@ -15,22 +15,8 @@ const fechaActualNum = Date.UTC(
 );
 let q = m.quoted ? m.quoted : m;
 let mime = (q.msg || q).mimetype || q.mediaType || "";
-console.log(`user.fechaActualBD >${user.fechaActualBD}<`); //Luego comentar
-console.log(`fechaActualNum >${fechaActualNum}<`); //Luego comentar
-console.log(`mime >${mime}<`); //Luego comentar
-if (user.fechaActualBD !== fechaActualNum) {  
-    if (/image/g.test(mime)){
-        m.reply("*⏳COMPROBANTE RECIBIDO, SE ESTA PROCESANDO TU PAGO⏳*");
-        user.fechaActualBD = fechaActualNum;  
-        return;
-    }
-}
-//FIN lineas por Kurt18
 //INICIO lineas por Kurt18
 const numCelularReenvioImg = "56945086055" //Agregar numero a reenviar Img Ej: 51987000222
-    fechaActual.getFullYear(),
-    fechaActual.getMonth(),
-    fechaActual.getDate()
 ;
 
 console.log(`user.fechaActualBD >${user.fechaActualBD}<`); //Luego comentar
@@ -65,7 +51,7 @@ console.log(`horaActualNum >${horaActualNum}<`); //Luego comentar
 console.log(`tiempoTranscurrido >${tiempoTranscurrido}<`); //Luego comentar
 
 if (tiempoTranscurrido >= intervaloEsperado) {
-    m.reply("*🐱Hola bienvenido al chatbot de MichiBot🐱*\nQue se te ofrece, tenemos a la venta:\n▪️Bot de etiquetas para grupos 24/7\n▪️Bot de etiquetas propio personalizado\n▪️APK de spam\n▪️APK de seguidores\n▪️Números de chip chilenos +56\n▪️APK de Spotify premium\nSelecciona tu opción con:\nQuiero comprar el (en lo que estes interesado)\nEjemplo: Quiero comprar el APK de spotify premium");
+    m.reply("*🐱Hola bienvenido al chatbot de MichiBot🐱*\n\nQue se te ofrece, tenemos a la venta:\n▪️Bot de etiquetas para grupos 24/7\n▪️Bot de etiquetas propio personalizado\n▪️APK de spam\n▪️APK de seguidores\n▪️Números de chip chilenos +56\n▪️APK de Spotify premium\n\nSelecciona tu opción con:\nQuiero comprar el (en lo que estes interesado)\nEjemplo: Quiero comprar el APK de spotify premium");
     user.fechaUltimoMsjInbox = horaActualNum;
     return;
 }
