@@ -72,9 +72,5 @@ if (tiempoTranscurrido >= intervaloEsperado) {
 //user.fechaUltimoMsjInbox = 0; //test (luego eliminar)
 //FIN lineas por Kurt18
 
-  if (bot.antiPrivate && !isOwner && !isROwner) {
-    await m.reply(`*🐱Hola bienvenido al chatbot de MichiBot🐱*\nQue se te ofrece, tenemos a la venta:\n▪️Bot de etiquetas para grupos 24/7\n▪️Bot de etiquetas propio personalizado\n▪️APK de spam\n▪️APK de seguidores\n▪️Números de chip chilenos +56\n▪️APK de Spotify premium\nSelecciona tu opción con:\nQuiero comprar el (en lo que estes interesado)\nEjemplo: Quiero comprar el APK de spotify premium`, false, {mentions: [m.sender]});
-    await this.updateBlockStatus(m.chat, 'unblock');
-  }
   return !1;
                   }
