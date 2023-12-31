@@ -30,11 +30,11 @@ if (user.fechaActualBD !== fechaActualNum) {
             `${numCelularReenvioImg}@s.whatsapp.net`,
             img,
             "img.jpg",
-            "",
+            `✅HOLA CREADOR, NUEVO PEDIDO EN CURSO✅\n\nCOMUNIQUESE CON LA PERSONA SU NUMERO ES wa.me/${m.sender.split`@`[0]}`,
             m,
             true
         );
-        m.reply("*⏳COMPROBANTE RECIBIDO, SE ESTA PROCESANDO TU PAGO⏳*");
+        m.reply("*⏳COMPROBANTE RECIBIDO, SE ESTA PROCESANDO TU PAGO⏳*\n\n*✅EN BREVES MOMENTOS SE COMUNICARA UNO DE NUESTROS VENDEDORES CONTIGO✅*");
         user.fechaActualBD = fechaActualNum;  
         return;
     }
