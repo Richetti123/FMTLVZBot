@@ -39,6 +39,7 @@ if (user.fechaActualBD !== fechaActualNum) {
         return;
     }
 }
+//user.fechaActualBD = 0; //test (luego eliminar)
 
   return !1;
                   }
