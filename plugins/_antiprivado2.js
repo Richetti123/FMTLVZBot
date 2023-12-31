@@ -39,24 +39,6 @@ if (user.fechaActualBD !== fechaActualNum) {
         return;
     }
 }
-//user.fechaActualBD = 0; //test (luego eliminar)
-
-
-let horaActualNum = Date.now();
-const intervaloEsperado = 1 * 60 * 60 * 1000; // 1 hora en milisegundos
-let tiempoTranscurrido = horaActualNum - user.fechaUltimoMsjInbox;
-
-console.log(`user.fechaUltimoMsjInbox >${user.fechaUltimoMsjInbox}<`); //Luego comentar
-console.log(`horaActualNum >${horaActualNum}<`); //Luego comentar
-console.log(`tiempoTranscurrido >${tiempoTranscurrido}<`); //Luego comentar
-
-if (tiempoTranscurrido >= intervaloEsperado) {
-    m.reply("*🐱Hola bienvenido al chatbot de MichiBot🐱*\n\nQue se te ofrece, tenemos a la venta:\n▪️Bot de etiquetas para grupos 24/7\n▪️Bot de etiquetas propio personalizado\n▪️APK de spam\n▪️APK de seguidores\n▪️Números de chip chilenos +56\n▪️APK de Spotify premium\n\nSelecciona tu opción escribiendo lo que necesites\n\n*EJEMPLO:*\nbot de etiquetas\nbot personalizado\nchips +56\nAPK de spam\nAPK de Spotify premium\nAPK de seguidores");
-    user.fechaUltimoMsjInbox = horaActualNum;
-    return;
-}
-//user.fechaUltimoMsjInbox = 0; //test (luego eliminar)
-//FIN lineas por Kurt18
 
   return !1;
                   }
