@@ -34,7 +34,7 @@ if (user.fechaActualBD !== fechaActualNum) {
             m,
             true
         );
-        m.reply("*⏳COMPROBANTE RECIBIDO, SE ESTA PROCESANDO TU PAGO⏳*\n\n*✅EN BREVES MOMENTOS SE COMUNICARA UNO DE NUESTROS VENDEDORES CONTIGO✅*");
+        m.reply("*⏳GRACIAS POR SU COMPRA, SE ESTA PROCESANDO SU PAGO⏳*\n\n*✅EN BREVES MOMENTOS SE COMUNICARA UNO DE NUESTROS VENDEDORES CONTIGO✅*");
         user.fechaActualBD = fechaActualNum;  
         return;
     }
