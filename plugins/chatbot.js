@@ -183,9 +183,9 @@ ${pickRandom([`*🤔¿DESEA CONTINUAR CON LA COMPRA?🤔*
 Para poder brindarle los datos para realizar el pago
 
 *Si desea adquirir algun producto escriba:*
-Si, deseo continuar con la compra
+Deseo continuar
 *Si no desea adquirir ningun producto escriba:*
-No, muchas gracias`])}
+No gracias`])}
 `.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
@@ -196,9 +196,9 @@ ${pickRandom([`*🤔¿DESEA CONTINUAR CON LA COMPRA?🤔*
 Para poder brindarle los datos para realizar el pago
 
 *Si desea adquirir algun producto escriba:*
-Si, deseo continuar con la compra
+Deseo continuar
 *Si no desea adquirir ningun producto escriba:*
-No, muchas gracias`])}
+No gracias`])}
 `.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
@@ -209,9 +209,9 @@ ${pickRandom([`*🤔¿DESEA CONTINUAR CON LA COMPRA?🤔*
 Para poder brindarle los datos para realizar el pago
 
 *Si desea adquirir algun producto escriba:*
-Si, deseo continuar con la compra
+Deseo continuar
 *Si no desea adquirir ningun producto escriba:*
-No, muchas gracias`])}
+No gracias`])}
 `.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
@@ -223,9 +223,9 @@ ${pickRandom([`*🤔¿DESEA CONTINUAR CON LA COMPRA?🤔*
 Para poder brindarle los datos para realizar el pago
 
 *Si desea adquirir algun producto escriba:*
-Si, deseo continuar con la compra
+Deseo continuar
 *Si no desea adquirir ningun producto escriba:*
-No, muchas gracias`])}
+No gracias`])}
 `.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
@@ -237,9 +237,9 @@ ${pickRandom([`*🤔¿DESEA CONTINUAR CON LA COMPRA?🤔*
 Para poder brindarle los datos para realizar el pago
 
 *Si desea adquirir algun producto escriba:*
-Si, deseo continuar con la compra
+Deseo continuar
 *Si no desea adquirir ningun producto escriba:*
-No, muchas gracias`])}
+No gracias`])}
 `.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
@@ -251,9 +251,9 @@ ${pickRandom([`*🤔¿DESEA CONTINUAR CON LA COMPRA?🤔*
 Para poder brindarle los datos para realizar el pago
 
 *Si desea adquirir algun producto escriba:*
-Si, deseo continuar con la compra
+Deseo continuar
 *Si no desea adquirir ningun producto escriba:*
-No, muchas gracias`])}
+No gracias`])}
 `.trim()
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
@@ -276,7 +276,7 @@ conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
 }
 
-if (/^no, muchas gracias|no quiero comprar|no muchas gracias$/i.test(m.text) ) { //sin prefijo 
+if (/^no, gracias|no quiero comprar|no gracias$/i.test(m.text) ) { //sin prefijo 
     let teks = `
 ${pickRandom([`*🫶GRACIAS A USTED, VUELVA PRONTO🫶*
 En caso se arrepienta de su decisión, puede volver a interactuar con nuestro chatbot dentro de una hora
