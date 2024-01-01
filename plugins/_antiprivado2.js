@@ -30,7 +30,7 @@ if (user.fechaActualBD !== fechaActualNum) {
             `${numCelularReenvioImg}@s.whatsapp.net`,
             img,
             "img.jpg",
-            `✅HOLA CREADOR, NUEVO PEDIDO EN CURSO✅\n\nCOMUNIQUESE CON LA PERSONA SU NUMERO ES wa.me/${m.sender.split`@`[0]}`,
+            `✅HOLA CREADORA GERI BONITA<3, NUEVO PEDIDO EN CURSO✅\n\nCOMUNIQUESE CON LA PERSONA SU NUMERO ES wa.me/${m.sender.split`@`[0]}`,
             m,
             true
         );
