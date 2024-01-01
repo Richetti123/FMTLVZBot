@@ -66,7 +66,7 @@ $220🇺🇾`])}
 conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
 }
-if (/^números de chip chilenos +56|chip chilenos +56|chips +56|info del chip|informacion|informacion del bot$/i.test(m.text) ) { //sin prefijo 
+if (/^chips|chip chileno|chips chilenos|info del chip|informacion|informacion del bot$/i.test(m.text) ) { //sin prefijo 
     let teks = `
 ${pickRandom([`Estos son los precios que tenemos para números de chip +56:
 S/6🇵🇪
