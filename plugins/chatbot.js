@@ -9,6 +9,30 @@ let name = conn.getName(m.sender)
   if (m.isGroup) return !1;
   if (!m.message) return !0;
 
+if (/^menu de ventas|menú de ventas|ventas$/i.test(m.text) ) { //sin prefijo 
+    let teks = `
+${pickRandom([`Hola buenas, tenemos a la venta:
+🔸Bot de etiquetas para grupos 24/7
+🔸Bot de etiquetas propio personalizado
+🔸APK de spam
+🔸APK de seguidores
+🔸Números de chip chilenos +56
+🔸APK de Spotify premium
+
+Selecciona tu opción escribiendo lo que necesites
+
+EJEMPLO:
+bot de etiquetas
+bot personalizado
+chips +56
+APK de spam
+APK de Spotify premium
+APK de seguidores`])}
+`.trim()
+conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
+
+}
+
 if (/^bot de etiquetas|bot para grupos|precios|info del bot|informacion|informacion del bot$/i.test(m.text) ) { //sin prefijo 
     let teks = `
 ${pickRandom([`Estos son los precios que tenemos por 3 grupos por 3 meses de duración:
