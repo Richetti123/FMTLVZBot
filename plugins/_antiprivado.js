@@ -25,7 +25,7 @@ console.log(`horaActualNum >${horaActualNum}<`); //Luego comentar
 console.log(`tiempoTranscurrido >${tiempoTranscurrido}<`); //Luego comentar
 
 if (tiempoTranscurrido >= intervaloEsperado) {
-    m.reply("*🐱Hola bienvenido al chatbot de MichiBot🐱*\n\nQue se te ofrece, tenemos a la venta:\n▪️Bot de etiquetas para grupos 24/7\n▪️Bot de etiquetas propio personalizado\n▪️APK de spam\n▪️APK de seguidores\n▪️Números de chip chilenos +56\n▪️APK de Spotify premium\n\nSelecciona tu opción escribiendo lo que necesites\n\n*EJEMPLO:*\nbot de etiquetas\nbot personalizado\nchips +56\nAPK de spam\nAPK de Spotify premium\nAPK de seguidores");
+   await m.reply(`🐱Hola @${m.sender.split`@`[0]}, bienvenido al chatbot de MichiBot🐱\nSoy el asistente virtual de Geri, y estare a cargo de atenderte hoy\n\nSi deseas ver la lista de productos y servicios que tengo a la venta escribe:\n*menu de ventas*`, false, {mentions: [m.sender]});
     user.fechaUltimoMsjInbox = horaActualNum;
     return;
 }
