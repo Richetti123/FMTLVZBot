@@ -235,7 +235,7 @@ conn.reply(m.chat, teks, m, { mentions: { mentionedJid: [m.sender] }})
 
 }
 
-if (/^si deseo continuar con la compra|si quiero comprar|si, deseo continuar con la compra|si deseo continuar la compra$/i.test(m.text) ) { //sin prefijo 
+if (/^deseo continuar|si quiero comprar$/i.test(m.text) ) { //sin prefijo 
     let teks = `
 ${pickRandom([`Selecciona tu método de pago por favor:
 Argentina🇦🇷
