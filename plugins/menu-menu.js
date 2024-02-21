@@ -186,8 +186,8 @@ ${readMore}
 ┃🎡➺ _${usedPrefix}tictactoe | ttt *sala*_
 ┃🎡➺ _${usedPrefix}deltictactoe | delttt_
 ┃🎡➺ _${usedPrefix}topgays_
-┃🎡➺ _${usedPrefix}topfieles_
-┃🎡➺ _${usedPrefix}topinfieles_
+┃🎡➺ _${usedPrefix}topf_
+┃🎡➺ _${usedPrefix}topif_
 ┃🎡➺ _${usedPrefix}topotakus_
 ┃🎡➺ _${usedPrefix}toppajer@s_
 ┃🎡➺ _${usedPrefix}topput@s_
