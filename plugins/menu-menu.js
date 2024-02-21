@@ -123,6 +123,13 @@ ${readMore}
 
 *╭━〔 MAPAS DE FREE FIRE Y LISTAS PARA VS 〕⬣*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
+┣ ඬ⃟ 💟 .4vs4 Lista de 4 vs 4
+┣ ඬ⃟ 💟 .6vs6 Lista de 6 vs 6
+┣ ඬ⃟ 💟 .scrim Lista de scrim
+┣ ඬ⃟ 💟 .internamasc Lista de versus interno masculino
+┣ ඬ⃟ 💟 .internafem Lista de versus interno femenino
+┣ ඬ⃟ 💟 .internamixta Lista de versus interno mixto
+┣ ඬ⃟ 💟 .donarsala Escoge un donador de sala al azar en el grupo
 ┣ ඬ⃟ 💟 .vs8 Lista de 8 vs 8 
 ┣ ඬ⃟ 💟 .vs12 Lista de 12 vs 12
 ┣ ඬ⃟ 💟 .vs16 Lista de 16 vs 16
@@ -179,6 +186,8 @@ ${readMore}
 ┃🎡➺ _${usedPrefix}tictactoe | ttt *sala*_
 ┃🎡➺ _${usedPrefix}deltictactoe | delttt_
 ┃🎡➺ _${usedPrefix}topgays_
+┃🎡➺ _${usedPrefix}topfieles_
+┃🎡➺ _${usedPrefix}topinfieles_
 ┃🎡➺ _${usedPrefix}topotakus_
 ┃🎡➺ _${usedPrefix}toppajer@s_
 ┃🎡➺ _${usedPrefix}topput@s_
@@ -190,6 +199,8 @@ ${readMore}
 ┃🎡➺ _${usedPrefix}topfamosos | topfamos@s_
 ┃🎡➺ _${usedPrefix}topparejas | top5parejas_
 ┃🎡➺ _${usedPrefix}gay | gay *@tag*_
+┃🎡➺ _${usedPrefix}fiel *nombre : @tag*_
+┃🎡➺ _${usedPrefix}infiel *nombre : @tag*_
 ┃🎡➺ _${usedPrefix}gay2 *nombre : @tag*_
 ┃🎡➺ _${usedPrefix}lesbiana *nombre : @tag*_
 ┃🎡➺ _${usedPrefix}manca *nombre : @tag*_
