@@ -104,7 +104,7 @@ let top = `*_💎TOP 10 L@S MEJORES INTEGRANTES👑_*
 *_10.- 👑 ${user(j)}_* 👑`
 m.reply(top, null, { mentions: conn.parseMention(top) })}
 
-if (command == 'topfieles') {
+if (command == 'topf') {
 let top = `*_😇TOP 10 DE FIELES DEL GRUPO😇_*
     
 *_1.- 😇 ${user(a)}_* 😇
@@ -119,7 +119,7 @@ let top = `*_😇TOP 10 DE FIELES DEL GRUPO😇_*
 *_10.- 😇 ${user(j)}_* 😇`
 m.reply(top, null, { mentions: conn.parseMention(top) })}
 
-if (command == 'topinfieles') {
+if (command == 'topif') {
 let top = `*_😈TOP 10 DE INFIELES DEL GRUPO😈_*
     
 *_1.- 😈 ${user(a)}_* 😈
@@ -358,7 +358,7 @@ Genial! 💝, están de Luna de miel 🥵✨❤️‍🔥`
 m.reply(top, null, { mentions: conn.parseMention(top) })}
   
 }
-handler.help = handler.command = ['topgays', 'topotakus', 'topintegrantes', 'topintegrante', 'toplagrasa', 'topgrasa', 'toppanafrescos', 'toppanafresco', 'topshiposters', 'topshipost', 'toppajer@s', 'toplindos', 'toplind@s', 'topput@s', 'topfamosos', 'topfamos@s', 'topparejas', 'top5parejas', 'topfieles', 'topinfieles', 'donarsala' ]
+handler.help = handler.command = ['topgays', 'topotakus', 'topintegrantes', 'topintegrante', 'toplagrasa', 'topgrasa', 'toppanafrescos', 'toppanafresco', 'topshiposters', 'topshipost', 'toppajer@s', 'toplindos', 'toplind@s', 'topput@s', 'topfamosos', 'topfamos@s', 'topparejas', 'top5parejas', 'topf', 'topif', 'donarsala' ]
 handler.tags = ['games']
 handler.group = true
 export default handler  
