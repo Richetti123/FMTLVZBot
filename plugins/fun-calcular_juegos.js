@@ -6,7 +6,19 @@ let juego = `_*${text.toUpperCase()}* *ES/IS* *${(500).getRandom()}%* *GAY*_ �
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
 
  // ------------------------------------------------------------------------------------------------------------------------------------------------
+
+if (command == 'infiel') {
+let juego = `_*${text.toUpperCase()}* *ES/IS* *${(500).getRandom()}%* *INFIEL*_ 😈`.trim()
+await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
+
+ // ------------------------------------------------------------------------------------------------------------------------------------------------
   
+if (command == 'fiel') {
+let juego = `_*${text.toUpperCase()}* *ES/IS* *${(500).getRandom()}%* *FIEL*_ 😇`.trim()
+await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
+
+ // ------------------------------------------------------------------------------------------------------------------------------------------------
+
 if (command == 'lesbiana') { 
 let juego = `_*${text.toUpperCase()}* *ES/IS* *${(500).getRandom()}%* *${command.replace('how', '').toUpperCase()}*_ 🏳️‍🌈`.trim()
 await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid } : {})}
@@ -77,8 +89,8 @@ await conn.reply(m.chat, juego, m, m.mentionedJid ? { mentions: m.mentionedJid }
 //mentions: m.mentionedJid
 //} : {})} 
 }
-handler.help = ['love', 'gay2', 'lesbiana', 'pajero', 'pajera', 'puto', 'puta', 'manco', 'manca', 'rata', 'prostituta', 'prostituto'].map(v => v + ' @tag | nombre')
+handler.help = ['love', 'gay2', 'infiel', 'fiel', 'lesbiana', 'pajero', 'pajera', 'puto', 'puta', 'manco', 'manca', 'rata', 'prostituta', 'prostituto'].map(v => v + ' @tag | nombre')
 handler.tags = ['calculator']
-handler.command = /^love|gay2|lesbiana|pajero|pajera|puto|puta|manco|manca|rata|prostituta|prostituto/i
+handler.command = /^love|gay2|infiel|fiel|lesbiana|pajero|pajera|puto|puta|manco|manca|rata|prostituta|prostituto/i
 handler.exp = 100
 export default handler
