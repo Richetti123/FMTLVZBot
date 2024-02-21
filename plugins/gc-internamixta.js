@@ -81,7 +81,7 @@ for (const { url, isVideo } of result.reverse()) await conn.sendFile(m.chat, url
 console.log('7 ' + err7)    
 throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*`
 }}}}}}}}}
-handler.command = /^(vs8|8vs8)$/i
+handler.command = /^(imixta|internamixta)$/i
 handler.register = true
 handler.group = true
 handler.admin = true
