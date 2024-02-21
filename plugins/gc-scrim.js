@@ -5,26 +5,15 @@ import fbDownloader from 'fb-downloader-scrapper'
 import { facebook } from "@xct007/frieren-scraper"
 import axios from 'axios'
 let handler = async (m, { conn, args, command, usedPrefix }) => {
-if (!args[0]) throw `8 𝐕𝐄𝐑𝐒𝐔𝐒 8
+if (!args[0]) throw `*SCRIM*
 
 𝐇𝐎𝐑𝐀𝐑𝐈𝐎
 🇵🇪 𝐏𝐄𝐑𝐔 : 
 🇦🇷 𝐀𝐑𝐆𝐄𝐍𝐓𝐈𝐍𝐀 : 
 🇨🇱 𝐂𝐇𝐈𝐋𝐄 :  
-𝐂𝐎𝐋𝐎𝐑 𝐃𝐄 𝐑𝐎𝐏𝐀: 
-¬ 𝐉𝐔𝐆𝐀𝐃𝐎𝐑𝐄𝐒 𝐏𝐑𝐄𝐒𝐄𝐍𝐓𝐄𝐒
 
-      𝗘𝗦𝗖𝗨𝗔𝗗𝗥𝗔 1
-
-👑 ┇ 
+🥷🏻 ┇ 
 🥷🏻 ┇  
-🥷🏻 ┇ 
-🥷🏻 ┇ 
-      
-     𝗘𝗦𝗖𝗨𝗔𝗗𝗥𝗔 2
-
-👑 ┇ 
-🥷🏻 ┇ 
 🥷🏻 ┇ 
 🥷🏻 ┇ 
 
@@ -89,7 +78,7 @@ for (const { url, isVideo } of result.reverse()) await conn.sendFile(m.chat, url
 console.log('7 ' + err7)    
 throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*`
 }}}}}}}}}
-handler.command = /^(vs8|8vs8)$/i
+handler.command = /^(salascrim|scrim)$/i
 handler.register = true
 handler.group = true
 handler.admin = true
