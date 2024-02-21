@@ -5,32 +5,24 @@ import fbDownloader from 'fb-downloader-scrapper'
 import { facebook } from "@xct007/frieren-scraper"
 import axios from 'axios'
 let handler = async (m, { conn, args, command, usedPrefix }) => {
-if (!args[0]) throw `8 𝐕𝐄𝐑𝐒𝐔𝐒 8
+if (!args[0]) throw `4 𝐕𝐄𝐑𝐒𝐔𝐒 4 𝐈𝐍𝐓𝐄𝐑𝐍𝐎
 
 𝐇𝐎𝐑𝐀𝐑𝐈𝐎
 🇵🇪 𝐏𝐄𝐑𝐔 : 
 🇦🇷 𝐀𝐑𝐆𝐄𝐍𝐓𝐈𝐍𝐀 : 
 🇨🇱 𝐂𝐇𝐈𝐋𝐄 :  
-𝐂𝐎𝐋𝐎𝐑 𝐃𝐄 𝐑𝐎𝐏𝐀: 
-¬ 𝐉𝐔𝐆𝐀𝐃𝐎𝐑𝐄𝐒 𝐏𝐑𝐄𝐒𝐄𝐍𝐓𝐄𝐒
 
       𝗘𝗦𝗖𝗨𝗔𝗗𝗥𝗔 1
+🌸 ┇ 
+🌸 ┇  
+🌸 ┇ 
+🌸 ┇ 
 
-👑 ┇ 
-🥷🏻 ┇  
-🥷🏻 ┇ 
-🥷🏻 ┇ 
-      
-     𝗘𝗦𝗖𝗨𝗔𝗗𝗥𝗔 2
-
-👑 ┇ 
-🥷🏻 ┇ 
-🥷🏻 ┇ 
-🥷🏻 ┇ 
-
-ㅤʚ 𝐒𝐔𝐏𝐋𝐄𝐍𝐓𝐄:
-🥷🏻 ┇ 
-🥷🏻 ┇
+      𝗘𝗦𝗖𝗨𝗔𝗗𝗥𝗔 2
+🌸 ┇ 
+🌸 ┇
+🌸 ┇ 
+🌸 ┇
 ` 
 if (!args[0].match(/www.facebook.com|fb.watch/g)) throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝚄𝙽 𝙴𝙽𝙻𝙰𝙲𝙴 𝙳𝙴 𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺, 𝙴𝙹𝙴𝙼𝙿𝙻𝙾: ${usedPrefix + command}* https://fb.watch/fOTpgn6UFQ/`
 try {
@@ -89,7 +81,7 @@ for (const { url, isVideo } of result.reverse()) await conn.sendFile(m.chat, url
 console.log('7 ' + err7)    
 throw `*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝚁𝚁𝙾𝚁, 𝙿𝙾𝚁 𝙵𝙰𝚅𝙾𝚁 𝚅𝚄𝙴𝙻𝚅𝙰 𝙰 𝙸𝙽𝚃𝙴𝙽𝚃𝙰𝚁𝙻𝙾*`
 }}}}}}}}}
-handler.command = /^(vs8|8vs8)$/i
+handler.command = /^(ifem|internafem)$/i
 handler.register = true
 handler.group = true
 handler.admin = true
