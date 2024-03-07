@@ -950,8 +950,8 @@ global.db.data.chats[m.chat] = {}
 		
 if (chat) {
 if (!('isBanned' in chat)) chat.isBanned = false                    
-if (!('welcome' in chat)) chat.welcome = true                    
-if (!('detect' in chat)) chat.detect = true                    
+if (!('welcome' in chat)) chat.welcome = false                    
+if (!('detect' in chat)) chat.detect = false                    
 if (!('sWelcome' in chat)) chat.sWelcome = ''                    
 if (!('sBye' in chat)) chat.sBye = ''                    
 if (!('sPromote' in chat)) chat.sPromote = ''                    
@@ -961,7 +961,7 @@ chat.delete = true
 if (!('modohorny' in chat)) chat.modohorny = true                    
 if (!('stickers' in chat)) chat.stickers = false                   
 if (!('autosticker' in chat)) chat.autosticker = false                      
-if (!('audios' in chat)) chat.audios = true                     
+if (!('audios' in chat)) chat.audios = false                     
 if (!('antiver' in chat)) chat.antiver = false                  
 if (!('antiLink' in chat)) chat.antiLink = false                    
 if (!('antiLink2' in chat)) chat.antiLink2 = false
@@ -972,7 +972,7 @@ if (!('antiFacebook' in chat)) chat.antiFacebook = false
 if (!('antiInstagram' in chat)) chat.antiInstagram = false
 if (!('antiTwitter' in chat)) chat.antiInstagram = false
 if (!('antifake' in chat)) chat.antifake = false
-if (!('reaction' in chat)) chat.reaction = true    
+if (!('reaction' in chat)) chat.reaction = false    
 if (!('viewonce' in chat)) chat.viewonce = false       
 if (!('modoadmin' in chat)) chat.modoadmin = false           
 if (!('antitoxic' in chat)) chat.antitoxic = true 
@@ -983,8 +983,8 @@ if (!isNumber(chat.expired)) chat.expired = 0
 } else
 global.db.data.chats[m.chat] = {
 isBanned: false,
-welcome: true,
-detect: true,
+welcome: false,
+detect: false,
 sWelcome: '',
 sBye: '',
 sPromote: '',
@@ -993,7 +993,7 @@ delete: true,
 modohorny: true,
 stickers: false,
 autosticker: false,
-audios: true,
+audios: false,
 antiver: false,
 antiLink: false,
 antiLink2: false,
@@ -1004,7 +1004,7 @@ antiFacebook: false,
 antiInstagram: false,
 antiTwitter: false,
 antifake: false,
-reaction: true,
+reaction: false,
 viewonce: false,
 modoadmin: false,
 antitoxic: true,
